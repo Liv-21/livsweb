@@ -1,0 +1,59 @@
+.logocss
+{
+  border-radius:100px;
+
+}
+
+p {
+   font-family: Times New Roman;
+   font-size: 100%;
+   font-color: black;
+  
+}
+body{
+
+    background-color:black;
+    height: 50%;
+    margin: 50%; 
+    align="right";
+    background-image: url("purple.png")
+}
+
+table{
+    border:5px solid blue;
+    width: 1500px;
+    height: 1000px
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* Page content */
+.content {
+  word-wrap;
+  padding: 5000px;
+}
+
+
+ul {
+  display: inline-block;
+  *display: inline;
+  zoom: 1
+}
+
+
+/* Zoom on Hover : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+* {
+    box-sizing: border-box;
+  }
+  .zoom {
+    transition: transform .5s;
+    width: 200px;
+    height:450px;
+    align:"right";
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
